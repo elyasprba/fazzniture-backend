@@ -1,16 +1,15 @@
 <p align="center">
-  <img src="./assets/img/coffee-1.png" alt="el-CoffeeShop" width='70'>
+  <img src="" alt="Fazzniture" width='70'>
 </p>
 <div align="center">
-<h1>el-Coffee Shop</h1>
-<p>el-Coffee Shop is a cool place to hang out with a cup of coffee.</p>
+<h1>FAZZNITURE</h1>
+<p>Repository Backend - Fazzniture</p>
 <br>
 </div>
 
 ## 📍 About
 
-Repository Backend - el-Coffee Shop
-
+<p>Fazzniture is one of the online furniture stores in Indonesia. Starting with the aspiration to find it easy to buy quality and branded home furnishings in Indonesia. At Fazzniture , "Fazz" is taken from the name where we learn the web, and "Niture" is taken from the name of the project we are working on.</p>
 <br>
 
 ## 📌 How To Install?
@@ -18,13 +17,13 @@ Repository Backend - el-Coffee Shop
 -  Clone This Repo
 
 ```
-$  git clone https://github.com/elyasprba/el-coffeShop-backend.git
+$  git clone
 ```
 
 -  Go To Folder Repo
 
 ```
-$  cd el-coffeeshop
+$  cd fazzniture-backend
 ```
 
 -  Setup .env
@@ -41,6 +40,10 @@ JWT_ISSUER
 CLOUD_NAME
 CLOUD_API
 CLOUD_SECRET
+SERVICE
+USER
+PASS
+BASE_URL
 ```
 
 -  Install Module
@@ -52,14 +55,14 @@ $  npm install
 -  To Start The Project
 
 ```
-$  npm run startDe
+$  npm run startDev
 ```
 
 <br/>
 
-## ✍️ el-CoffeeShop - Frontend Link
+## ✍️ Related Project
 
-Link project : [el-CoffeeShop](https://el-coffee-shop.netlify.app)
+Link project : [Fazzniture](https://fazzniture.netlify.app/)
 
 <br>
 
@@ -84,17 +87,30 @@ Link project : [el-CoffeeShop](https://el-coffee-shop.netlify.app)
 
 ## 🖇 Endpoint Details
 
-| Endpoint     |               Method                | Info              |
-| ------------ | :---------------------------------: | :---------------- |
-| /auth        |               `POST`                | Auth              |
-| /users       |            `GET` `POST`             | Users             |
-| /users/:id   |       `GET` `PATCH` `DELETE`        | Histories         |
-| /products    | `POST` `GET` `PUT` `PATCH` `DELETE` | Product Histories |
-| /promos      |    `POST` `GET` `PATCH` `DELETE`    | Categories        |
-| /transaction | `POST` `GET` `PUT` `PATCH` `DELETE` | Products          |
+| Endpoint         |     Method     | Info             |
+| ---------------- | :------------: | :--------------- |
+| /auth            |     `POST`     | Auth             |
+| /users/:id       | `GET` `PATCH`  | Users            |
+| /sizes           |     `GET`      | Size             |
+| /brands          |     `GET`      | Brands           |
+| /categories      |     `GET`      | Categories       |
+| /colors          |     `GET`      | Colors           |
+| /product         |  `GET` `POST`  | Product          |
+| /product/:id     | `GET` `PATCH`  | Product          |
+| /product/fav     |     `GET`      | Product Favorite |
+| /transaction     |  `POST` `GET`  | Transaction      |
+| /transaction/:id | `GET` `DELETE` | Transaction      |
 
 ## 📄 Documentation
 
--  [Postman](https://documenter.getpostman.com/view/20120165/UyrEguXK)
+-  [Postman](https://documenter.getpostman.com/view/20120165/UzBpLmYN)
+-  [Fazzniture-Backend](https://fazzniture-store.herokuapp.com/)
 
 <br>
+
+## 🤝 Fazzniture - Team Project
+
+| [Rivaldi Christovel Sibi](https://github.com/RivaldiSiby) | [Ferry Aryadicka](https://github.com/faryadicka) | [Bill Hikmah](https://github.com/billhikmah) | [Jalaludin Alkhotami](https://github.com/JalalDA) | [Elyas Purba Prastiya](https://github.com/elyasprba) |
+| :-------------------------------------------------------: | :----------------------------------------------: | :------------------------------------------: | :-----------------------------------------------: | :--------------------------------------------------: |
+|  <img src="" alt="Rivaldi Christovel Sibi" width='200'>   |  <img src="" alt="Ferry Aryadicka" width='200'>  |  <img src="" alt="Bill Hikmah" width='200'>  | <img src="" alt="Jalaludin Alkhotami" width='75'> | <img src="" alt="Elyas Purba Prastiya" width='200'>  |
+|              <b>PM & Fullstack Developer</b>              |            <b>Frontend Developer</b>             |          <b>Frontend Developer</b>           |             <b>Backend Developer</b>              |              <b>Fullstack Developer</b>              |
